@@ -21,7 +21,7 @@ jobs:
     - name: Build Docker Image
       run: |
         docker login -u ${{secrets.DOCKER_USERNAME}} -p ${{secrets.DOCKER_PASSWORD}}
-        docker build -t mahad1111/i200426-javamaven
+        docker build -t mahad1111/i200426-javamaven .
     - name: Push Docker Image
       run: docker push mahad1111/i200426-javamaven
     
