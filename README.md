@@ -40,3 +40,5 @@ All the actuator endpoints will be available at
 - Authenticated endpoint 
 
 Some of the endpoints like `http://localhost:8080/slowApi/` are protected with Spring Security's HTTP Basic Authentication. You can use the username `actuator` and password `actuator` for http basic authentication.
+
+I have now added CI/CD flow with Github Actions
